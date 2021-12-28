@@ -1,0 +1,292 @@
+.profilepic{
+  width: 300px;
+  height: 300px;
+    
+  margin-top: -5%;
+}
+
+.profilepic-nav{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+}
+@font-face {
+  font-family: 'Harry Potter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Harry Potter'), url('../font/HARRP___.woff') format('woff');
+}
+
+
+body{
+    background-image: url(../img/background-star.jpg);
+    font-family: "Oswald", Helvetica Neue;
+    color:white;
+}
+p{
+    color: white;
+    letter-spacing: 0.3vh;
+}
+h1{
+    color: white;
+    letter-spacing: 0.5vh;
+    text-align: center;
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 74px;
+}
+.crest{
+position: absolute;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 10%;
+justify-content: center;
+}
+
+.card{
+    position: absolute;
+}
+.item {
+    order: 4; /* default is 0 */
+  }
+
+
+.button1{
+    background: url(../img/gryffindor-card.png);
+    height: 413px !important;
+    width: 280px !important;
+    border: none;
+    color: inherit;
+    outline: inherit;
+}
+.button2{
+    background: url(../img/ravenclaw-card.png);
+    height: 413px !important;
+    width: 280px !important;
+    border: none;
+    color: inherit;
+    outline: inherit;
+    padding-top: 25px !important;
+}
+.button3{
+    background: url(../img/slytherin-card.png);
+    height: 413px !important;
+    width: 280px !important;
+    border: none;
+    color: inherit;
+    outline: inherit;
+    
+}
+
+.button4{
+    background: url(../img/hufflepuff-card.png); 
+    height: 413px !important;
+    width: 280px !important;
+    border: none;
+    color: inherit;
+    outline: inherit;
+    
+}
+
+.centerborder{
+    border-style: solid;
+  border-color: white;
+  margin: auto;
+    width: 50%;
+
+    padding: 10px;
+}
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+   
+    justify-content: center
+    
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding-bottom: 30px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    
+    .profilepic{
+      width: 300px;
+      height: 300px;
+      
+      padding-left:0%;
+      margin-left: 22%;
+  }
+  .moveit{
+      padding-left:0%;
+      margin-left: -8%;
+  }
+    
+}
+
+  @media only screen and (max-width: 800px) {
+    
+      .profilepic{
+        width: 300px;
+        height: 300px;
+        
+        padding-left:0%;
+        margin-left: 10%!important;
+    }
+    .moveit{
+        padding-left:0%;
+        margin-left: -20%!important;
+    }
+    .next{
+      margin-left:25% !important;
+    }
+      
+  }
+  @media only screen and (max-width: 400px) {
+    
+    .profilepic{
+      width: 300px;
+      height: 300px;
+      
+      padding-left:0%;
+      margin-left: -30%!important ;
+  }
+  .moveit{
+      padding-left:0%;
+      margin-left: -35%!important ;
+  }
+  .nav-item {
+    margin: 0 10% 0 0;
+     width: 20% !important; 
+}
+    
+}
+
+  
+
+
+
+
+
+
+  .moveit{
+      padding-left:40%;
+  }
+  .percent {
+      font-size:20px;
+      font-family: "Oswald", Helvetica Neue;
+  }
+  h2{
+      color:white;
+  }
+
+  .next{
+    margin-left:27%;
+    border-radius: 15px;
+    width:40%;
+    height: 70px;
+    border: 3px ;
+    border-style: solid;
+  border-color: white;
+
+    background-color: black;
+    color:black;
+    outline: inherit;
+    text-decoration: none !important;
+  }
+
+  .textbutton{
+      color:white;
+      text-decoration: none;
+      font-size:20px;
+      font-family: "Oswald", Helvetica Neue;
+  }
+
+  .texty{
+    text-decoration: none !important;
+  }
+
+  
+.nav-item{
+  margin: 0 10% 0 0;
+  width: 7%;
+}
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+}
+.nav-link{
+  text-decoration: none !important;
+  color:white;
+  font-size: 2rem;
+  
+}
+
+.nav-item:last-child{
+margin: 0 0 0 0;
+
+}
+.center-nav{
+  margin:auto;
+  width: 20%;
+}
+ul {
+  list-style-type: none;
+}
+
+.moveit-img{
+  padding-left:0%;
+      margin-left: -10%;
+}
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+    width: 50%;
+    padding: 10
+px
+;
+}
+
+.uploadredirect{
+    border-radius: 15px;
+    width: 40%;
+    height: 70px;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    color: black;
+    outline: inherit;
+    text-decoration: none !important;
+}
+
+.center-houses{
+  margin: auto;
+  width: 50%;
+}
+
+.container-houses{
+  flex-wrap: wrap;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.descript{
+  line-height:2rem;
+  resize: none;
+}
