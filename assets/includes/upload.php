@@ -7,7 +7,6 @@ $id = $_SESSION['userProfileID'];
 
 
 $file = $_FILES['userImage'];
-print_r($file);
 $fileName = $_FILES['userImage']['name'];
 $fileTmpName = $_FILES['userImage']['tmp_name'];
 $fileSize = $_FILES['userImage']['size'];  
@@ -27,6 +26,7 @@ if(in_array($fileActualExt, $allowed)){
             move_uploaded_file($fileTmpName, $fileDestination);
             $sql = "UPDATE profileimg SET statusimg = 1 WHERE userProfileID = ". $id.";";
             $result = mysqli_query($conn, $sql);
+            header('Location: ../../myProfile.php');
         }
         else{
             echo "file is to big";
